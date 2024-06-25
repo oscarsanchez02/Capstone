@@ -4,12 +4,15 @@ export default function Register(){
 
 
     return (
+      <div className="bg-gradient-to-b from-sky-400 to-white h-screen flex justify-center content-center">
+      <div className="bg-white h-screen w-[1500px] p-4 justify-center">
+      <h1 className=' pt-6 block text-5xl font-medium leading-6 text-gray-900 text-center'>Getting Signed Up Is E EASY!</h1>
         <div className='mt-10 sm:mx-auto sm:w-full sm:max-w-sm'>
-          <form>
+          <form className="bg-gray-800 shadow-md rounded px-8 pt-6 pb-8 mb-4" >
             <div>
               <label
                 htmlFor='first_name'
-                className='block text-sm font-medium leading-6 text-gray-900'
+                className='block text-sm font-medium leading-6 text-white text-center'
               >
                 First Name
               </label>
@@ -26,7 +29,7 @@ export default function Register(){
             <div>
               <label
                 htmlFor='last_name'
-                className='block text-sm font-medium leading-6 text-gray-900'
+                className='block text-sm font-medium leading-6 text-white text-center'
               >
                 Last Name
               </label>
@@ -43,7 +46,7 @@ export default function Register(){
             <div>
               <label
                 htmlFor='email'
-                className='block text-sm font-medium leading-6 text-gray-900'
+                className='block text-sm font-medium leading-6 text-white text-center'
               >
                 Email address
               </label>
@@ -61,7 +64,7 @@ export default function Register(){
             <div>
               <label
                 htmlFor='password'
-                className='block text-sm font-medium leading-6 text-gray-900'
+                className='block text-sm font-medium leading-6 text-white text-center'
               >
                 Password
               </label>
@@ -84,6 +87,8 @@ export default function Register(){
               </button>
             </div>
           </form>
+        </div>
+        </div>
         </div>
       );
     }
